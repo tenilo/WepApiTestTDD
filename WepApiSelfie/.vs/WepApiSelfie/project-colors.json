@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "21d777c0-1a83-4e9f-ab24-e109c5454fa6": {
+      "ProjectGuid": "21d777c0-1a83-4e9f-ab24-e109c5454fa6",
+      "DisplayName": "WepApiSelfie",
+      "ColorIndex": 0
+    },
+    "f28ac1ab-2b20-459b-9236-b8340d2f4f3d": {
+      "ProjectGuid": "f28ac1ab-2b20-459b-9236-b8340d2f4f3d",
+      "DisplayName": "TestTddWebApi",
+      "ColorIndex": 1
+    },
+    "9363dc6d-3936-4f5d-851d-0a217aec9bc4": {
+      "ProjectGuid": "9363dc6d-3936-4f5d-851d-0a217aec9bc4",
+      "DisplayName": "SelfieAwokie.Domain",
+      "ColorIndex": 2
+    },
+    "b4a06dbe-0933-40b3-a248-db44c2b38361": {
+      "ProjectGuid": "b4a06dbe-0933-40b3-a248-db44c2b38361",
+      "DisplayName": "SelfieAwookie.Infrastructure",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

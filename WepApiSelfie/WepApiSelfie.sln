@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WepApiSelfie", "WepApiSelfie.csproj", "{21D777C0-1A83-4E9F-AB24-E109C5454FA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTddWebApi", "..\TestTddWebApi\TestTddWebApi.csproj", "{F28AC1AB-2B20-459B-9236-B8340D2F4F3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9591CAFF-2883-4B28-84AA-53797A7CB26D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{CF69AE35-CD69-4D95-BE33-C294190D694F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfieAwokie.Domain", "..\SelfieAwokie.Domain\SelfieAwokie.Domain.csproj", "{9363DC6D-3936-4F5D-851D-0A217AEC9BC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfieAwookie.Infrastructure", "..\SelfieAwookie.Infrastructure\SelfieAwookie.Infrastructure.csproj", "{B4A06DBE-0933-40B3-A248-DB44C2B38361}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21D777C0-1A83-4E9F-AB24-E109C5454FA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21D777C0-1A83-4E9F-AB24-E109C5454FA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21D777C0-1A83-4E9F-AB24-E109C5454FA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21D777C0-1A83-4E9F-AB24-E109C5454FA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F28AC1AB-2B20-459B-9236-B8340D2F4F3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F28AC1AB-2B20-459B-9236-B8340D2F4F3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F28AC1AB-2B20-459B-9236-B8340D2F4F3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F28AC1AB-2B20-459B-9236-B8340D2F4F3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9363DC6D-3936-4F5D-851D-0A217AEC9BC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9363DC6D-3936-4F5D-851D-0A217AEC9BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9363DC6D-3936-4F5D-851D-0A217AEC9BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9363DC6D-3936-4F5D-851D-0A217AEC9BC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4A06DBE-0933-40B3-A248-DB44C2B38361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4A06DBE-0933-40B3-A248-DB44C2B38361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4A06DBE-0933-40B3-A248-DB44C2B38361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4A06DBE-0933-40B3-A248-DB44C2B38361}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F28AC1AB-2B20-459B-9236-B8340D2F4F3D} = {9591CAFF-2883-4B28-84AA-53797A7CB26D}
+		{9363DC6D-3936-4F5D-851D-0A217AEC9BC4} = {CF69AE35-CD69-4D95-BE33-C294190D694F}
+		{B4A06DBE-0933-40B3-A248-DB44C2B38361} = {CF69AE35-CD69-4D95-BE33-C294190D694F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDF247A1-AEFE-4932-A46B-D399FD5FA71D}
+	EndGlobalSection
+EndGlobal
