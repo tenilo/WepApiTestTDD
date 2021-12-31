@@ -1,11 +1,14 @@
 using System;
 using WepApiSelfie.Controllers;
 using Xunit;
+/*
 
 namespace TestTddWebApi
 {
+    
     public class SelfieControllerUnitTest
     {
+        
         [Fact]
         public void ShouldReturnListOfSelfie()
         {
@@ -20,5 +23,8 @@ namespace TestTddWebApi
             Assert.True(result.GetEnumerator().MoveNext());
 
         }
+        
     }
+    
 }
+*/

@@ -20,6 +20,11 @@
       "ProjectGuid": "b4a06dbe-0933-40b3-a248-db44c2b38361",
       "DisplayName": "SelfieAwookie.Infrastructure",
       "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 4

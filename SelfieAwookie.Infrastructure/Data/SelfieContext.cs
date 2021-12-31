@@ -11,14 +11,14 @@ namespace SelfieAwookie.Infrastructure.Data
 {
     public class SelfieContext : DbContext
     {
-        public SelfieContext() : base() { }
+        public SelfieContext(DbContextOptions<SelfieContext> options) : base(options) { }
 
         public DbSet<Selfie> Selfies { get; set; }
         public DbSet<Wookie> Wookies { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder);
+           
             modelBuilder.ApplyConfiguration(new SelfieEntityTypeConfiguration());
             modelBuilder.ApplyConfiguration(new WookieEntityTypeConfiguration());
         }
